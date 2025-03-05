@@ -1,0 +1,22 @@
+.env
+
+# Répertoires de dépendances
+vendor/
+node_modules/
+
+# Fichiers de configuration de l'IDE
+.idea/
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*.bak
+
+# Fichiers de cache
+cache/
+tmp/
+
+# Fichiers de configuration spécifiques au système d'exploitation
+.DS_Store
+Thumbs.db
