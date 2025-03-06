@@ -14,13 +14,15 @@ body {
 }
 
 button {
+    margin: 2rem;
     padding: 10px 15px;
-    background-color: #28a745;
+    background-color: #9c99e7;
     color: white;
-    border: none;
     cursor: pointer;
+    border: #9c99e7 1px solid;
+    border-radius: 0.5rem;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #9c99e7;
 }
