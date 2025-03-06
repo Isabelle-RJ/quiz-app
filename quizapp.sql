@@ -87,7 +87,7 @@ VALUES
 # WHERE question_id BETWEEN 1 AND 8;
 
 -- Réinitialisation des ID après suppression (évite les décalages)
-ALTER TABLE questions
-    AUTO_INCREMENT = 1;
-ALTER TABLE answers
-    AUTO_INCREMENT = 1;
+# ALTER TABLE questions
+#     AUTO_INCREMENT = 1;
+# ALTER TABLE answers
+#     AUTO_INCREMENT = 1;

@@ -2,6 +2,8 @@
 namespace App;
 
 class Autoloader {
+
+    // Charge les classes automatiquement pour qu'on puisse les récuperer dans les fichiers sans les inclure à chaque fois (require_once [nom de la classe])
     public static function register(): void
     {
         spl_autoload_register([self::class, 'autoload']);
