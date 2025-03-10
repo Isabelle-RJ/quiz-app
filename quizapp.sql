@@ -94,3 +94,7 @@ VALUES
 # WHERE id IN (
 # SELECT question_id FROM answers WHERE answer = '5' and is_correct=1
 # );
+
+# -- Update
+# UPDATE answers SET is_correct=0 WHERE question_id='e0744892-0336-412b-8398-d7e0e24752c2' AND answer='Blanche';
+# UPDATE answers SET is_correct=1 WHERE question_id='e0744892-0336-412b-8398-d7e0e24752c2' AND answer='Grise';
